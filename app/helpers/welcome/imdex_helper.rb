@@ -1,0 +1,2 @@
+module Welcome::ImdexHelper
+end

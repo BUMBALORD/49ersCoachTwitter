@@ -1,0 +1,56 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background-image: url(sativa.png);
+  background-repeat: repeat-x repeat-y;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  margin-top: 3em;
+}
+
+.header img {
+  display: flex;
+  height: 15em;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  margin-top: 3em;
+}
+
+.list {
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.list ul {
+  list-style: none;
+}
+
+.list ul li a {
+  display:block;
+  text-decoration:none;
+  color:#000000;
+  background-color:#FFFFFF;
+  line-height:30px;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  border-bottom-color:#CCCCCC;
+  padding-left:10px;
+  cursor:pointer;
+}
+
+.list ul li a:hover {
+  color:#FFFFFF;
+  background-color: #4099FF;
+  background-repeat:repeat-x;
+}
+

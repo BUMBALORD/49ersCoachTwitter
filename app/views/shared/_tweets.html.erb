@@ -1,0 +1,7 @@
+<section id="tweets">
+  <ul>
+    <% @niners.each do |tweet| %>
+      <li class="tweet"><%= link_to tweet.text, "https://www.twitter.com/#{tweet.user.screen_name}" %></li>
+      <% end %>
+  </ul>
+</section>
