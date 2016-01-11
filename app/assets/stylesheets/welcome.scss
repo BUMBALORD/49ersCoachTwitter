@@ -71,13 +71,22 @@ body {
 
 .right {
   float: right;
+  font-family: 'Bangers', cursive;
+  font-size: 1.5em;
 }
 
 .left {
   float: left;
+  font-family: 'Bangers', cursive;
+  font-size: 1.5em;
 }
 
 .tagline {
   text-align: center;
   font-family: 'Bangers', cursive;
+}
+
+.tweet {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.9em
 }
