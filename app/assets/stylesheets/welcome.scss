@@ -9,7 +9,7 @@ body {
 
 .header {
   display: flex;
-  width: 100%;
+  // width: 100%;
   margin-top: 3em;
 }
 
@@ -19,9 +19,15 @@ body {
   margin: 0 auto;
 }
 
+@media (max-width: 900px) {
+  .header img {
+    height: 5em;
+  }
+}
+
 .content {
   display: flex;
-  width: 100%;
+  // width: 100%;
   margin-top: 3em;
 }
 
@@ -31,8 +37,16 @@ body {
   margin: 0 auto;
 }
 
+@media (max-width: 900px) {
+  .list {
+    width: 95%;
+  }
+}
+
 .list ul {
   list-style: none;
+  margin:0;
+  padding: 0;
 }
 
 .list ul li a {
@@ -40,11 +54,12 @@ body {
   text-decoration:none;
   color:#000000;
   background-color:#FFFFFF;
-  line-height:30px;
+  line-height:35px;
   border-bottom-style:solid;
   border-bottom-width:1px;
   border-bottom-color:#CCCCCC;
   padding-left:10px;
+  padding-right: 10px;
   cursor:pointer;
 }
 
@@ -54,3 +69,10 @@ body {
   background-repeat:repeat-x;
 }
 
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
