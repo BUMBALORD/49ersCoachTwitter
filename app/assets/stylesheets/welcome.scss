@@ -53,7 +53,7 @@ body {
   display:block;
   text-decoration:none;
   color:#000000;
-  background-color:#FFFFFF;
+  background-color:#F8F8F8;
   line-height:35px;
   border-bottom-style:solid;
   border-bottom-width:1px;
@@ -61,6 +61,7 @@ body {
   padding-left:10px;
   padding-right: 10px;
   cursor:pointer;
+  text-align: center;
 }
 
 .list ul li a:hover {
@@ -89,4 +90,9 @@ body {
 .tweet {
   font-family: 'Raleway', sans-serif;
   font-size: 0.9em
+}
+
+.bigger {
+  font-size: 1.5em;
+  color: #FC0D1B;
 }
