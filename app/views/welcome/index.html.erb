@@ -6,6 +6,10 @@
 <p class="tagline"> According to Twitter's last 100 Tweets on the subject...</p>
 <div class="center"><%= link_to 'Jed York Watch', jed_index_path, :class => 'button'  %></div>
 
+<div class="skyline">
+  <%= image_tag("skyline.png") %>
+</div>
+
 <div class="content">
   <div class="list">
     <%= render 'shared/tweets' %>
