@@ -33,13 +33,13 @@ body {
 
 .list {
   display: flex;
-  width: 75%;
+  // width: 75%;
   margin: 0 auto;
 }
 
 @media (max-width: 900px) {
   .list {
-    width: 95%;
+    // width: 95%;
   }
 }
 
