@@ -21,8 +21,18 @@ body {
 
 @media (max-width: 900px) {
   .header img {
-    height: 5em;
+    height: 6em;
   }
+}
+
+.music {
+  display: flex;
+  height: 2em;
+}
+
+audio {
+  display: flex;
+  margin: 0 auto;
 }
 
 .content {
@@ -123,4 +133,16 @@ body {
 .skyline img {
   margin-top: 3em;
   width: 100%;
+}
+
+.chip img {
+  display: flex;
+  height: 15em;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .chip img {
+    height: 10.5em;
+  }
 }
