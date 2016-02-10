@@ -3298,3 +3298,13 @@ Completed 200 OK in 914ms (Views: 106.2ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/assets/sativa.png" for ::1 at 2016-01-11 12:13:30 -0800
+
+
+Started GET "/" for ::1 at 2016-02-09 11:27:55 -0800
+Processing by WelcomeController#index as HTML
+  Rendered shared/_tweets.html.erb (120.3ms)
+  Rendered welcome/index.html.erb within layouts/application (296.6ms)
+Completed 200 OK in 971ms (Views: 521.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sativa.png" for ::1 at 2016-02-09 11:27:56 -0800

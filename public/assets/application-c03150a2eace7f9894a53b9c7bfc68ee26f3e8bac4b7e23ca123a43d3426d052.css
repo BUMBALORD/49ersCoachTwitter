@@ -1,0 +1,171 @@
+/* line 5, /Users/davidhallinan/Desktop/Development/Projects/49ersCoachTwitter/app/assets/stylesheets/welcome.scss */
+body {
+  background-image: url(sativa.png);
+  background-repeat: repeat-x repeat-y;
+}
+
+/* line 10, /Users/davidhallinan/Desktop/Development/Projects/49ersCoachTwitter/app/assets/stylesheets/welcome.scss */
+.header {
+  display: flex;
+  margin-top: 3em;
+}
+
+/* line 16, /Users/davidhallinan/Desktop/Development/Projects/49ersCoachTwitter/app/assets/stylesheets/welcome.scss */
+.header img {
+  display: flex;
+  height: 15em;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  /* line 23, /Users/davidhallinan/Desktop/Development/Projects/49ersCoachTwitter/app/assets/stylesheets/welcome.scss */
+  .header img {
+    height: 6em;
+  }
+}
+/* line 28, /Users/davidhallinan/Desktop/Development/Projects/49ersCoachTwitter/app/assets/stylesheets/welcome.scss */
+.music {
+  display: flex;
+  height: 2em;
+}
+
+/* line 33, /Users/davidhallinan/Desktop/Development/Projects/49ersCoachTwitter/app/assets/stylesheets/welcome.scss */
+audio {
+  display: flex;
+  margin: 0 auto;
+}
+
+/* line 38, /Users/davidhallinan/Desktop/Development/Projects/49ersCoachTwitter/app/assets/stylesheets/welcome.scss */
+.content {
+  display: flex;
+  margin-top: 1em;
+}
+
+/* line 44, /Users/davidhallinan/Desktop/Development/Projects/49ersCoachTwitter/app/assets/stylesheets/welcome.scss */
+.list {
+  display: flex;
+  margin: 0 auto;
+}
+
+/* line 56, /Users/davidhallinan/Desktop/Development/Projects/49ersCoachTwitter/app/assets/stylesheets/welcome.scss */
+.list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 62, /Users/davidhallinan/Desktop/Development/Projects/49ersCoachTwitter/app/assets/stylesheets/welcome.scss */
+.list ul li a {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  background-color: #F8F8F8;
+  line-height: 35px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #CCCCCC;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* line 77, /Users/davidhallinan/Desktop/Development/Projects/49ersCoachTwitter/app/assets/stylesheets/welcome.scss */
+.list ul li a:hover {
+  color: #FFFFFF;
+  background-color: #4099FF;
+  background-repeat: repeat-x;
+}
+
+/* line 83, /Users/davidhallinan/Desktop/Development/Projects/49ersCoachTwitter/app/assets/stylesheets/welcome.scss */
+.right {
+  float: right;
+  font-family: 'Bangers', cursive;
+  font-size: 1.5em;
+}
+
+/* line 89, /Users/davidhallinan/Desktop/Development/Projects/49ersCoachTwitter/app/assets/stylesheets/welcome.scss */
+.left {
+  float: left;
+  font-family: 'Bangers', cursive;
+  font-size: 1.5em;
+}
+
+/* line 95, /Users/davidhallinan/Desktop/Development/Projects/49ersCoachTwitter/app/assets/stylesheets/welcome.scss */
+.tagline {
+  text-align: center;
+  font-family: 'Bangers', cursive;
+}
+
+/* line 100, /Users/davidhallinan/Desktop/Development/Projects/49ersCoachTwitter/app/assets/stylesheets/welcome.scss */
+.tweet {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.9em;
+}
+
+/* line 105, /Users/davidhallinan/Desktop/Development/Projects/49ersCoachTwitter/app/assets/stylesheets/welcome.scss */
+.bigger {
+  font-size: 1.5em;
+  color: #FC0D1B;
+}
+
+/* line 110, /Users/davidhallinan/Desktop/Development/Projects/49ersCoachTwitter/app/assets/stylesheets/welcome.scss */
+.button {
+  font-family: 'Bangers', cursive;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: solid 1px #20538D;
+  text-shadow: 0 -2px 0 rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: #4479BA;
+  color: #FFF;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+
+/* line 126, /Users/davidhallinan/Desktop/Development/Projects/49ersCoachTwitter/app/assets/stylesheets/welcome.scss */
+.center {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 2em;
+}
+
+/* line 133, /Users/davidhallinan/Desktop/Development/Projects/49ersCoachTwitter/app/assets/stylesheets/welcome.scss */
+.skyline img {
+  margin-top: 3em;
+  width: 100%;
+}
+
+/* line 138, /Users/davidhallinan/Desktop/Development/Projects/49ersCoachTwitter/app/assets/stylesheets/welcome.scss */
+.chip img {
+  display: flex;
+  height: 15em;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  /* line 145, /Users/davidhallinan/Desktop/Development/Projects/49ersCoachTwitter/app/assets/stylesheets/welcome.scss */
+  .chip img {
+    height: 10.5em;
+  }
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
