@@ -3308,3 +3308,114 @@ Completed 200 OK in 971ms (Views: 521.3ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/assets/sativa.png" for ::1 at 2016-02-09 11:27:56 -0800
+
+
+Started GET "/" for ::1 at 2016-02-16 09:56:02 -0800
+Processing by WelcomeController#index as HTML
+  Rendered shared/_tweets.html.erb (83.4ms)
+  Rendered welcome/index.html.erb within layouts/application (294.4ms)
+Completed 200 OK in 912ms (Views: 428.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jed.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-16 09:56:04 -0800
+
+
+Started GET "/assets/welcome.self-63a3afae5f921e39f28bb7786a3a65ca614fdc5d8c4cb3fcac57108df98a705d.css?body=1" for ::1 at 2016-02-16 09:56:04 -0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-16 09:56:04 -0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-02-16 09:56:04 -0800
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-16 09:56:04 -0800
+
+
+Started GET "/assets/jed.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-16 09:56:04 -0800
+
+
+Started GET "/assets/welcome/imdex.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-16 09:56:04 -0800
+
+
+Started GET "/assets/sativa.png" for ::1 at 2016-02-16 09:56:04 -0800
+
+
+Started GET "/" for ::1 at 2016-02-16 09:56:21 -0800
+Processing by WelcomeController#index as HTML
+  Rendered shared/_tweets.html.erb (141.6ms)
+  Rendered welcome/index.html.erb within layouts/application (146.5ms)
+Completed 200 OK in 611ms (Views: 183.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-02-16 09:56:22 -0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2016-02-16 09:56:22 -0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-16 09:56:22 -0800
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2016-02-16 09:56:22 -0800
+
+
+Started GET "/assets/jed.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-16 09:56:22 -0800
+
+
+Started GET "/assets/welcome.self-63a3afae5f921e39f28bb7786a3a65ca614fdc5d8c4cb3fcac57108df98a705d.css?body=1" for ::1 at 2016-02-16 09:56:22 -0800
+
+
+Started GET "/assets/jed.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-16 09:56:22 -0800
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-16 09:56:22 -0800
+
+
+Started GET "/assets/welcome/imdex.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-16 09:56:22 -0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-16 09:56:22 -0800
+
+
+Started GET "/assets/sativa.png" for ::1 at 2016-02-16 09:56:22 -0800
+
+
+Started GET "/" for ::1 at 2016-02-16 09:56:31 -0800
+Processing by WelcomeController#index as HTML
+  Rendered shared/_tweets.html.erb (142.1ms)
+  Rendered welcome/index.html.erb within layouts/application (146.7ms)
+Completed 200 OK in 1342ms (Views: 185.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jed.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-16 09:56:33 -0800
+
+
+Started GET "/assets/welcome.self-63a3afae5f921e39f28bb7786a3a65ca614fdc5d8c4cb3fcac57108df98a705d.css?body=1" for ::1 at 2016-02-16 09:56:33 -0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2016-02-16 09:56:33 -0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-02-16 09:56:33 -0800
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2016-02-16 09:56:33 -0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-16 09:56:33 -0800
+
+
+Started GET "/assets/jed.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-16 09:56:33 -0800
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-16 09:56:33 -0800
+
+
+Started GET "/assets/welcome/imdex.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-16 09:56:33 -0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-16 09:56:33 -0800
+
+
+Started GET "/assets/sativa.png" for ::1 at 2016-02-16 09:56:33 -0800
